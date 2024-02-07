@@ -1,0 +1,45 @@
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size:larger;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(6, 6, 6);
+    padding: 10px;
+                
+}
+p{
+    color: rgba(21, 21, 21, 0.781);
+    text-align:center;
+    font-size:medium;
+}
+li{
+    color: rgb(0, 0, 0);
+    text-align:justify;
+    font-size:medium;
+}
+
+ol{
+    color: rgba(21, 21, 21, 0.781);
+    text-align:justify;
+    font-size:medium;
+}
+ul{
+    color: rgba(21, 21, 21, 0.781);
+    text-align:justify;
+    font-size:medium;
+}
+body{
+    background-color: rgb(177, 149, 223);
+
+}
+h2{
+    color: rgba(21, 21, 21, 0.781);
+    text-align:justify;
+    font-size:medium;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(6, 6, 6);
+    padding: 10px;
+}
