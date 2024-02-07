@@ -1,12 +1,16 @@
 <<<<<<< Updated upstream
 
 h1{
+
     color: rgb(0, 0, 0);
+
+    color: black;
+
     text-align: center;
     font-size:larger;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(6, 6, 6);
+    border: 3px solid rgb(113, 15, 15);
     padding: 10px;
                 
 }
