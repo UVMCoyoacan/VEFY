@@ -35,17 +35,17 @@ function ActivaEstilo(n){
 }
 
 function redirigirYos() {
-    window.location.href = "https://www.google.com/";
+    window.location.href = "file:///D:/Eugen/uvm/8%20semestre/Contruccion%20de%20servicios%20web/VEFY/index_Yosef.html";
 }
 
 function redirigirVik() {
-    window.location.href = 'https://www.google.com/';
+    window.location.href = 'file:///D:/Eugen/uvm/8%20semestre/Contruccion%20de%20servicios%20web/VEFY/INDEXVIC.html';
 }
 
 function redirigirFer() {
-    window.location.href = 'https://www.google.com/';
+    window.location.href = 'file:///D:/Eugen/uvm/8%20semestre/Contruccion%20de%20servicios%20web/VEFY/INDEX_FER.html';
 }
 
 function redirigirEu() {
-    window.location.href = 'https://www.google.com/';
+    window.location.href = 'file:///D:/Eugen/uvm/8%20semestre/Contruccion%20de%20servicios%20web/VEFY/Pagina%20web%20presentacion%20Eugen/indexEugen.html';
 }
