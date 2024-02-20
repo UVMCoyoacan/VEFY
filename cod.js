@@ -33,3 +33,19 @@ function ActivaEstilo(n){
     document.styleSheets[n].disabled=false;
 
 }
+
+function redirigirYos() {
+    window.location.href = "https://www.google.com/";
+}
+
+function redirigirVik() {
+    window.location.href = 'https://www.google.com/';
+}
+
+function redirigirFer() {
+    window.location.href = 'https://www.google.com/';
+}
+
+function redirigirEu() {
+    window.location.href = 'https://www.google.com/';
+}
