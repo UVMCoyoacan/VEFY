@@ -3,26 +3,33 @@ function saludo(){
 }
 
 function numeracion(tope){
-    for (i=0; i<5; i++){
-        alert(i);
-    }
+for(i=0; i<5; i++){
+    alert(i);
 }
-function fond(){
-    alert("click");
-    parrafos=document.getElementsByTagName("p");
-    parrafos[0].innerHTML="reemplazado";
-    parrafos[0].style="color:red";
-    lista=document.getElementsByClassName("verde");
-    lista(0).style="text-align:center color:blue";
-    document.getElementById("raro".innerHTML="contenido actual");
 }
-function noEstilos(){
+
+function fondo(){
+alert("click");
+parrafos=document.getElementsByTagName("p");
+parrafos[0].innerHTML="remplazado";
+parrafos[1].style="color:red"
+lista=document.getElementsByClassName("verde");
+lista[0].style="text-align:center; color:blue";
+document.getElementById("raro").innerHTML="contenido actual";
+
+}
+
+function NoEstilos(){
     nest=document.styleSheets.length;
     for(i=0;i<nest;i++){
         document.styleSheets[i].disabled=true;
     }
+
+
 }
-function activaEstilos(n){
-    noEstilos();
+
+function ActivaEstilo(n){
+    NoEstilos();
     document.styleSheets[n].disabled=false;
+
 }
