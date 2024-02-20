@@ -8,7 +8,7 @@ h1{
     font-size:larger;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(173, 46, 215);
     border-style:solid;
     padding: 10px;
                 
@@ -41,18 +41,18 @@ ul{
     padding: 10px;
 }
 body{
-    background-color: rgb(160, 214, 239);
+    background-color: rgb(175, 115, 31);
 
 }
 
 
 h2{
-    color: rgb(0, 0, 0);
-    text-align: justify;
+    color: rgb(2, 2, 2);
+    text-align: center;
     font-size:x-large;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(247, 239, 10);
+    border: 3px solid rgb(113, 15, 15);
     border-style:solid;
     padding: 10px;
 }
@@ -60,14 +60,8 @@ img{
     display: block;
     width: 20%;
     margin: auto;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(16, 74, 200);
-    border-style:solid;
-    padding: 10px;
-
 }
 footer{
-    color: blueviolet;
-    background-color: aquamarine;
+    color: rgb(236, 122, 213);
+    background-color: rgb(16, 8, 8);
 }

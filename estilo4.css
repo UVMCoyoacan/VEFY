@@ -8,7 +8,7 @@ h1{
     font-size:larger;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(141, 172, 132);
     border-style:solid;
     padding: 10px;
                 
@@ -19,7 +19,7 @@ p{
     font-size:x-large;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(210, 5, 5);
+    border: 3px solid rgb(120, 168, 26);
     border-style:solid;
     padding: 10px;
 }
@@ -36,23 +36,23 @@ ul{
     font-size:large;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(113, 15, 15);
+    border: 3px solid rgb(216, 152, 152);
     border-style:solid;
     padding: 10px;
 }
 body{
-    background-color: rgb(160, 214, 239);
+    background-color: rgb(100, 61, 102);
 
 }
 
 
 h2{
-    color: rgb(0, 0, 0);
-    text-align: justify;
+    color: rgb(2, 2, 2);
+    text-align: center;
     font-size:x-large;
     margin: auto;
     width: 50%;
-    border: 3px solid rgb(247, 239, 10);
+    border: 3px solid rgb(123, 123, 123);
     border-style:solid;
     padding: 10px;
 }
@@ -60,14 +60,8 @@ img{
     display: block;
     width: 20%;
     margin: auto;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(16, 74, 200);
-    border-style:solid;
-    padding: 10px;
-
 }
 footer{
-    color: blueviolet;
-    background-color: aquamarine;
+    color: rgb(60, 28, 167);
+    background-color: rgb(210, 204, 25);
 }
