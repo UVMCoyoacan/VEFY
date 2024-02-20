@@ -1,58 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="estilo.css"/>
-       
-
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilo2.css">
+        <link rel="stylesheet" href="estilo3.css">
+        
     </head>
     <body>
-        <h1 onclick="fondo()">Mi curriculum</h1>
+        <h1 onclick="fond()"> Mi Página de Presentación</h1>
+        <h1 id="raro"> Currículum </h1>
 
-    
-        <p >
-         
-            Nombre: Fernando Padilla Ramírez <br> Ingenieria en sistemas computacionales <br>
-            
+        <p> 
+            Nombre: Victor Daniel Román Santamaria <br> Ingeniería en Sistema Computacionales <br>
         </p>
-    
-        <h2> 
-            Experiencia
-            
+
+        <h2>
+            Experiencia en el área:
         </h2>
 
-        <ol >
-            <li>redes</li>
-           <li>programacion</li>     
-             <li>diseño</li>
-             <li>Ingeniero en sofware</li>
+        <ol>
+            <li> Conocimientos en programación en diversos entornos</li>
+            <li> Diseño y gestión de proyectos</li>
+            <li> Certificación en redes Cisco</li>
+            <li> Conocimientos intermedios en ingles (tanto oral como escrito)</li>
         </ol>
         <p>
             Contratame
         </p>
-       <p >
-        Sueldo: 60000
-       </p>
-       <p>
-        Certificados:
-       </p>
-       <ul>
-        
-        <li>Redes 1 Cisco Netacad</li>
-        <li>Redes 2 Cisco Netacad</li>
-        <li>Programcion Java</li>
-        <li>Programacion C</li>
-        <li>Mondongo</li>
-       </ul>
-       <p>
-       <a onclick="NoEstilos()" href="#">No estilo</a>
-       <a onclick="ActivaEstilo(1)" href="#">Estilo1</a>
-       <a onclick="ActivaEstilo(2)" href="#">Estilo2</a>
-       <a onclick="ActivaEstilo(3)" href="#">Estilo3</a>
-    </p>
-    <p>
-       <img src="avatar.jpg" />
 
-       <script src="cod.js"> </script>
-    </p>
+        <footer style="font-size: xx-large;text-align: center;">
+            <a href="#" onclick="noEstilos()">Sin Estilos</a>
+            <a href="#"  onclick="activaEstilos(0)">Activa Estilo 1</a>
+            <a href="#" onclick="activaEstilos(1)">Activa Estilo 2</a>
+            <a href="#" onclick="activaEstilos(2)">Activa Estilo 3</a>
+        </footer>
+
+        <a href="file:///C:/Users/Evanb/OneDrive/Documentos/Actividades%20UVM/INGENIERIA%20DE%20SOFTWARE%20II%20UVM/Primer%20parcial/INDEX.html">Visitar Ejemplo</a>
+        <a href="file:///C:/Users/Evanb/OneDrive/Documentos/Actividades%20UVM/INGENIERIA%20DE%20SOFTWARE%20II%20UVM/Primer%20parcial/INDEX.html">Visitar Ejemplo</a>
+        <a href="file:///C:/Users/Evanb/OneDrive/Documentos/Actividades%20UVM/INGENIERIA%20DE%20SOFTWARE%20II%20UVM/Primer%20parcial/INDEX.html">Visitar Ejemplo</a>
+        <img src="VicFoto.jpg" alt="MiAvatar">
+
+        <script src="cod.js">
+            saludo();
+            
+        </script>
+
     </body>
 </html>

@@ -1,73 +1,34 @@
 h1{
-
-    color: rgb(0, 0, 0);
-
-    color: black;
-
+    color: blueviolet;
     text-align: center;
-    font-size:larger;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(0, 0, 0);
-    border-style:solid;
-    padding: 10px;
-                
+    border-style: mix;
 }
 p{
-    color: rgba(21, 21, 21, 0.781);
-    text-align:justify;
-    font-size:x-large;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(210, 5, 5);
-    border-style:solid;
-    padding: 10px;
-}
-li{
-    color: rgb(0, 0, 0);
-    text-align:justify;
-    font-size:medium;
+    text-align: center;
+    color:black;
+    border-style: dotted;
 }
 
+ol{
+    text-align: center;
+    color:rgb(153, 51, 51);
+    border-style: groove;
+    
+}
 
 ul{
-    color: rgba(21, 21, 21, 0.781);
-    text-align:center;
-    font-size:large;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(113, 15, 15);
-    border-style:solid;
-    padding: 10px;
+    text-align: center;
+    color: royalblue;
+    border-style: ridge;
 }
-body{
-    background-color: rgb(160, 214, 239);
-
-}
-
 
 h2{
-    color: rgb(0, 0, 0);
-    text-align: justify;
-    font-size:x-large;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(247, 239, 10);
-    border-style:solid;
-    padding: 10px;
+    color: orange ;
+    text-align: center;
+    border-style: mix;
 }
-img{
-    display: block;
-    width: 20%;
-    margin: auto;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(16, 74, 200);
-    border-style:solid;
-    padding: 10px;
 
-}
 footer{
-    color: blueviolet;
-    background-color: aquamarine;
+    color : springgreen;
+    background-color: black;
 }

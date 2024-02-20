@@ -1,71 +1,29 @@
 h1{
-
-    color: rgb(0, 0, 0);
-
-    color: black;
-
+    color: chocolate;
     text-align: center;
-    font-size:larger;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(173, 46, 215);
-    border-style:solid;
-    padding: 10px;
-                
+    border-style: mix;
 }
 p{
-    color: rgba(21, 21, 21, 0.781);
-    text-align:justify;
-    font-size:x-large;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(210, 5, 5);
-    border-style:solid;
-    padding: 10px;
-}
-li{
-    color: rgb(0, 0, 0);
-    text-align:justify;
-    font-size:medium;
+    text-align: center;
+    color:rebeccapurple;
+    border-style: dotted;
 }
 
+ol{
+    text-align: center;
+    color:rgb(153, 51, 51);
+    border-style: groove;
+    
+}
 
 ul{
-    color: rgba(216, 12, 12, 0.781);
-    text-align:center;
-    font-size:large;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(0, 0, 0);
-    border-style:solid;
-    padding: 10px;
+    text-align: center;
+    color: crimson;
+    border-style: ridge;
 }
-body{
-    background-color: rgb(67, 217, 180);
-
-}
-
 
 h2{
-    color: rgb(60, 101, 213);
+    color: red ;
     text-align: center;
-    font-size:x-large;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(0, 0, 0);
-    border-style:solid;
-    padding: 10px;
-}
-img{
-    display: block;
-    width: 20%;
-    margin: auto;
-}
-footer{
-    color: blueviolet;
-    background-color: aquamarine;
-}
-footer{
-    color: rgb(164, 149, 179);
-    background-color: rgb(32, 187, 112);
+    border-style: mix;
 }
