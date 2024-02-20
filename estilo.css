@@ -1,11 +1,11 @@
 h1{
-    color: blueviolet;
+    color: chocolate;
     text-align: center;
     border-style: mix;
 }
 p{
     text-align: center;
-    color:black;
+    color:rebeccapurple;
     border-style: dotted;
 }
 
@@ -18,17 +18,25 @@ ol{
 
 ul{
     text-align: center;
-    color: royalblue;
+    color: crimson;
     border-style: ridge;
 }
 
 h2{
-    color: orange ;
+    color: red ;
     text-align: center;
-    border-style: mix;
+    border-style: mix;
+}
+
+a{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(224, 255, 255);
 }
 
 footer{
-    color : springgreen;
-    background-color: black;
+    color:beige;
+    background-color: blueviolet;
 }
