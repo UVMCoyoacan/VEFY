@@ -33,7 +33,7 @@ a{
 }
 
 body{
-    background-color: rgb(224, 255, 255);
+    background-color: rgb(104, 163, 209);
 }
 
 footer{
@@ -42,7 +42,7 @@ footer{
 }
 button {
     border: none;
-    color: rgb(98, 205, 96);
+    color: rgb(134, 226, 47);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -50,5 +50,8 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  p{
+    text-align: center;
   }
   

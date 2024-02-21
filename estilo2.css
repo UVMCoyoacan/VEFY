@@ -42,7 +42,7 @@ footer{
 }
 button {
     border: none;
-    color: rgb(180, 22, 22);
+    color: rgb(32, 202, 69);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -50,5 +50,8 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  p{
+    text-align: center;
   }
   

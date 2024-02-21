@@ -65,9 +65,9 @@ footer{
     color: rgb(60, 28, 167);
     background-color: rgb(210, 204, 25);
 }
-p {
+button {
     border: none;
-    color: rgb(222, 141, 141);
+    color: rgb(226, 226, 47);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -75,5 +75,8 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  p{
+    text-align: center;
   }
   

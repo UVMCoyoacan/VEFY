@@ -33,16 +33,16 @@ a{
 }
 
 body{
-    background-color: rgb(224, 255, 255);
+    background-color: rgb(36, 187, 54);
 }
 
 footer{
     color:beige;
     background-color: blueviolet;
 }
-p {
+button {
     border: none;
-    color: rgb(161, 186, 38);
+    color: rgb(134, 226, 47);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -50,5 +50,8 @@ p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  p{
+    text-align: center;
   }
   
