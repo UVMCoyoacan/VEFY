@@ -1,11 +1,11 @@
 h1{
-    color: rgb(235, 24, 0);
+    color: chocolate;
     text-align: center;
     border-style: mix;
 }
 p{
     text-align: center;
-    color:rgb(244, 136, 210);
+    color:rebeccapurple;
     border-style: dotted;
 }
 
@@ -18,12 +18,12 @@ ol{
 
 ul{
     text-align: center;
-    color: rgb(147, 20, 220);
+    color: crimson;
     border-style: ridge;
 }
 
 h2{
-    color: rgb(0, 255, 208) ;
+    color: red ;
     text-align: center;
     border-style: mix;
 }
@@ -33,5 +33,22 @@ a{
 }
 
 body{
-    background-color: rgb(247, 9, 9);
+    background-color: rgb(224, 255, 255);
 }
+
+footer{
+    color:beige;
+    background-color: blueviolet;
+}
+button {
+    border: none;
+    color: rgb(40, 112, 181);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  

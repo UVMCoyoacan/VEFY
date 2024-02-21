@@ -1,29 +1,29 @@
 h1{
-    color: yellow ;
+    color: chocolate;
     text-align: center;
     border-style: mix;
 }
 p{
     text-align: center;
-    color:rgb(153, 87, 51);
+    color:rebeccapurple;
     border-style: dotted;
 }
 
 ol{
     text-align: center;
-    color:rgb(51, 153, 141);
+    color:rgb(153, 51, 51);
     border-style: groove;
     
 }
 
 ul{
     text-align: center;
-    color: rgb(220, 20, 157);
+    color: crimson;
     border-style: ridge;
 }
 
 h2{
-    color: rgb(76, 0, 255) ;
+    color: red ;
     text-align: center;
     border-style: mix;
 }
@@ -33,5 +33,22 @@ a{
 }
 
 body{
-    background-color: rgb(140, 210, 243);
+    background-color: rgb(224, 255, 255);
 }
+
+footer{
+    color:beige;
+    background-color: blueviolet;
+}
+button {
+    border: none;
+    color: rgb(180, 22, 22);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
