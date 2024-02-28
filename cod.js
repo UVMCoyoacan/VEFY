@@ -49,3 +49,6 @@ function redirigirFer() {
 function redirigirEu() {
     window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 }
+function redirigirForm() {
+    window.location.href = 'file:///C:/Users/Evanb/OneDrive/Documentos/GitHub/VEFY/enviadatos.html';
+}
