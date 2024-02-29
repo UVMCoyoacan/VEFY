@@ -47,7 +47,7 @@ function redirigirFer() {
 }
 
 function redirigirEu() {
-    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    window.location.href = './Pagina web presentacion Eugen/indexEugen.html';
 }
 function redirigirForm() {
     window.location.href = 'file:///C:/Users/Evanb/OneDrive/Documentos/GitHub/VEFY/enviadatos.html';
