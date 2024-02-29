@@ -5,13 +5,13 @@ h1{
 }
 p{
     text-align: center;
-    color:rebeccapurple;
+    color:rgb(0, 0, 0);
     border-style: dotted;
 }
 
 ol{
     text-align: center;
-    color:rgb(0, 0, 0);
+    color:rgb(1, 1, 1);
     border-style: groove;
     
 }
@@ -23,7 +23,7 @@ ul{
 }
 
 h2{
-    color: rgb(0, 0, 0) ;
+    color: rgba(206, 69, 24, 0.98) ;
     text-align: center;
     border-style: mix;
 }
@@ -33,7 +33,7 @@ a{
 }
 
 body{
-    background-color: rgb(226, 171, 75);
+    background-color: rgb(104, 163, 209);
 }
 
 footer{
@@ -42,7 +42,7 @@ footer{
 }
 button {
     border: none;
-    color: rgb(47, 191, 59);
+    color: rgb(175, 10, 10);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -51,7 +51,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
   }
-  div{
+  p{
     text-align: center;
   }
   
