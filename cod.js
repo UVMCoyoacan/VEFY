@@ -51,6 +51,6 @@ function redirigirEu() {
 
 }
 function redirigirForm() {
-    window.location.href = 'file:///C:/Users/Evanb/OneDrive/Documentos/GitHub/VEFY/enviadatos.html';
+    window.location.href = './enviadatos.html';
 
 }
