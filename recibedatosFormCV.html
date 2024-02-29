@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function getUrlVars() { //SOLO CON GET//
+			var vars = {};
+			//AGARRA LA URL//
+			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+				function (m, key, value) {
+					if (vars[key]) {
+						vars[key].push(value);
+					} else {
+						vars[key] = [value];
+					}
+				});
+			console.log(vars);
+			return vars;
+		}
+		
+				var nombre = getUrlVars()["fname"];
+				var telefono= getUrlVars()["numtel"];
+                var correo=getUrlVars()["correoele"];
+				var ops=0;
+				
+				alert("chk= " +ops+": "+ ad1);
+		</script>         
+	</head>
+<body>
+
+<h2>Datos Recibidos</h2>
+
+<p>Recibe datos</p>
+
+<h3> Persona </h3>
+<p id="Persona">    </p>
+
+<h3> Datos de contacto</h3>
+<p id="Detalles">    </p>
+
+<script>
+	var nomper=document.getElementById("Persona");
+	var datPers=document.getElementById("Detalles");
+	nomper.innerHTML="<i>" + nombre + "</i>";
+	nomper.style="color:blue;font-size:20px";
+    datPers.innerHTML="<i>" + telefono + "</i>";
+	datPers.style="color:blue;font-size:20px";
+    datPers.innerHTML="<i>" + correo + "</i>";
+	datPers.style="color:blue;font-size:20px";
+    
+
+
+
+</script>
+
+
+</body>
+</html>

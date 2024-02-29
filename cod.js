@@ -47,9 +47,13 @@ function redirigirFer() {
 }
 
 function redirigirEu() {
-    window.location.href = './Pagina web presentacion Eugen/indexEugen.html';
+    window.location.href = './indexEugen.html';
 }
 function redirigirForm() {
     window.location.href = './enviadatos.html';
+
+}
+function redirigirFormCV() {
+    window.location.href = './formularioCV.html';
 
 }
