@@ -35,15 +35,15 @@ function ActivaEstilo(n){
 }
 
 function redirigirYos() {
-    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    window.location.href = "./index_Yosef.html";
 }
 
 function redirigirVik() {
-    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    window.location.href = './INDEXVIC.html';
 }
 
 function redirigirFer() {
-    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+    window.location.href = './INDEX_FER.html';
 }
 
 function redirigirEu() {
@@ -51,4 +51,5 @@ function redirigirEu() {
 }
 function redirigirForm() {
     window.location.href = 'file:///C:/Users/Evanb/OneDrive/Documentos/GitHub/VEFY/enviadatos.html';
+
 }
