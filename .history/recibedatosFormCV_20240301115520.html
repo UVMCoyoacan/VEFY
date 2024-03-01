@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8" /> 
+
  
 		<script type="text/javascript">
 
 	
-			function getUrlVars() { 
-				//SOLO CON GET//
+			function getUrlVars() { //SOLO CON GET//
 			var vars = {};
 			//AGARRA LA URL//
-			
 			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
 				function (m, key, value) {
 					if (vars[key]) {
@@ -18,7 +16,6 @@
 					} else {
 						vars[key] = [value];
 					}
-					
 				});
 			console.log(vars);
 			return vars;
@@ -28,11 +25,11 @@
 				var telefono= getUrlVars()["numtel"];
                 var correo=getUrlVars()["correoele"];
 				var ops=0;
-			
+				decodeURIComponent
 				
 				alert("chk= " +ops+": "+ ad1);
 		</script> 
-		       
+		<meta charset="UTF-8" />        
 	</head>
 <body>
 
