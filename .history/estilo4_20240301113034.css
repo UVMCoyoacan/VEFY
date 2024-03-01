@@ -79,18 +79,4 @@ button {
   div{
     text-align: center;
   }
-  label{
-
-    color: rgb(0, 0, 0);
-
-    color: black;
-
-    text-align: center;
-    font-size:larger;
-    margin: auto;
-    width: 50%;
-    border: 3px solid rgb(126, 221, 100);
-    border-style:solid;
-    padding: 10px;
-  }
   
