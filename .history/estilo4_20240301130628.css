@@ -41,7 +41,7 @@ ul{
     padding: 10px;
 }
 body{
-    background-color: #a6aae4;
+    background-color: rgb(166, 170, 228);
 
 }
 
@@ -98,11 +98,9 @@ button {
 
   .boton{
     
-    background-image: linear-gradient(to right, red , yellow);
-    scale: 1;
+    background-color: linear-gradient(to right, red , yellow);
   }
 
   .boton:hover{
-    background-color: silver; 
-    scale: 2;
+    background-color: silver;
   }
