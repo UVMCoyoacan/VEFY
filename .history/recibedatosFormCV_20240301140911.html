@@ -12,7 +12,9 @@
 				//SOLO CON GET//
 			var vars = {};
 			//AGARRA LA URL//
-			
+			var utls=new URL(window.location.href).searchParams
+			var correo2=utls.get("correoele")
+			console.log(correo2);
 			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
 				function (m, key, value) {
 					if (vars[key]) {
@@ -25,9 +27,6 @@
 			console.log(vars);
 			return vars;
 		}
-		var utls=new URL(window.location.href).searchParams
-			var correo2=utls.get("correoele")
-			console.log(correo2);
 		
 				var nombre = getUrlVars()["fname"];
 				var telefono= getUrlVars()["numtel"];
