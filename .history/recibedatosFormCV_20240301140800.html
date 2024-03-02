@@ -12,7 +12,9 @@
 				//SOLO CON GET//
 			var vars = {};
 			//AGARRA LA URL//
-			
+			var utls=new URL(window.location.href).searchParams
+			var correo2=String(utls.get("correoele"))
+			console.log(correo2);
 			var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
 				function (m, key, value) {
 					if (vars[key]) {
@@ -25,9 +27,6 @@
 			console.log(vars);
 			return vars;
 		}
-		var utls=new URL(window.location.href).searchParams
-			var correo2=utls.get("correoele")
-			console.log(correo2);
 		
 				var nombre = getUrlVars()["fname"];
 				var telefono= getUrlVars()["numtel"];
@@ -36,7 +35,7 @@
 				var ops=0;
 			
 				
-				//alert("chk= " +ops+": "+ ad1);
+				alert("chk= " +ops+": "+ ad1);
 		</script> 
 		       
 	</head>
@@ -59,7 +58,7 @@
 	nomper.style="color:blue;font-size:20px";
     datPers.innerHTML="<i>" + telefono + "</i>";
 	datPers.style="color:blue;font-size:20px";
-    datPers.innerHTML="<i>" + correo2 + "</i>";
+    datPers.innerHTML="<i>" + correo + "</i>";
 	datPers.style="color:blue;font-size:20px";
     
 
