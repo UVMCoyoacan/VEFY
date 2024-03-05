@@ -1,0 +1,60 @@
+h1{
+    color: chocolate;
+    text-align: center;
+    border-style: mix;
+}
+p{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    border-style: dotted;
+}
+
+ol{
+    text-align: center;
+    color:rgb(1, 1, 1);
+    border-style: groove;
+    
+}
+
+ul{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-style: ridge;
+}
+
+h2{
+    color: chocolate ;
+    text-align:center;
+    border-style: mix;
+}
+
+a{
+    text-align: center;
+}
+
+body{
+
+    background-color: #a6aae4;
+
+    background-color: rgb(126, 197, 251);
+}
+
+footer{
+    color:beige;
+    background-color: blueviolet;
+}
+button {
+    border: none;
+    color: rgb(175, 10, 10);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  p{
+    text-align: center;
+  }
+  
